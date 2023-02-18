@@ -14,4 +14,5 @@ main(){
 	system("cls");
 	
 	cout<< "Seu salário base é R$"<<sm+(12*hrs)<<"!";
+	
 }
