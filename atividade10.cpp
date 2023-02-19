@@ -6,7 +6,7 @@ main(){
 	
 	int u, i, f;
 	i = 1;		
-	cout<< "Insira um numero: ";
+	cout<< "Insira um número: ";
 	cin>> u;
 	
 	system("pause");
@@ -17,11 +17,11 @@ main(){
 		f= u/i;
 
 		if(u==i*f && i!= u){
-			cout<<"O numero não é primo";
+			cout<<"O número não é primo";
 			break;
 		}
 		if(i== u){
-			cout<<"O numero é primo";
+			cout<<"O número é primo";
 			break;
 		}
 	

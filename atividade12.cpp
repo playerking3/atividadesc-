@@ -5,7 +5,7 @@ main(){
 	setlocale (LC_ALL, "portuguese");
 	float c, f;
 	
-	cout<< " insira a temperatura em °C: ";
+	cout<< "Insira a temperatura em °C: ";
 	cin>> c;
 	f = c*1.8+ 32;
 	

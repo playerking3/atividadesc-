@@ -6,19 +6,19 @@ main(){
 	
 	string email, senha;
 	
-	cout<< "insira o e-mail: ";
+	cout<< "Insira o e-mail: ";
 	cin >> email;
 	
-	cout<<"insira a senha: ";
+	cout<<"Insira a senha: ";
 	cin>> senha;
 	
 	system("pause");
 	system("cls");
 	
 	if(email == "admin@gmail.com" && senha == "1234abc"){
-		cout<< "acessso concedido";
+		cout<< "Acessso concedido";
 	}else{
-		cout<< "acesso negado, tente novamente.";
+		cout<< "Acesso negado, tente novamente.";
 	}
 	
 }

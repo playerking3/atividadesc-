@@ -6,7 +6,7 @@ main(){
 	
 	int num, total1, total2;
 	
-	cout<< "insira um numero: ";
+	cout<< "Insira um numero: ";
 	cin>> num;
 	
 	system("pause");
@@ -18,8 +18,8 @@ main(){
 	
 	
 	if(total1*5 == num && total2*3 == num){
-		cout<< "O número é multiplo de 3 e de 5";
+		cout<< "O número "<<num<<" é multiplo de 3 e de 5";
 	}else{
-		cout<< "O numero não é multiplo de 3 nem de 5";
+		cout<< "O numero "<<num<<" não é multiplo de 3 nem de 5";
 	}
 }

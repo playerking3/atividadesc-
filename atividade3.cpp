@@ -4,19 +4,22 @@ using namespace std;
 main(){
 	setlocale(LC_ALL, "portuguese");
 	float p1,p2,result,falta;
-	cout << "informe a primeira nota";
+	cout << "Informe a primeira nota: ";
 	cin >> p1;
-	cout << "informe a segunda nota";
+	cout << "Informe a segunda nota: ";
 	cin >> p2;
-	cout << "informe suas faltas (limite de 100 faltas)";
+	cout << "Informe suas faltas (limite de 100 faltas) ";
 	cin >> falta;
 	result = (p1+p2) / 2;
+	
+	system("pause");
+	system("cls");
 
 	if(result >=6 && falta <25){
 	
-		cout<< "você foi aprovado";
+		cout<< "Você foi aprovado, parabéns!";
 	}else{
-		cout << "você foi reprovado";
+		cout <<"Você foi reprovado!";
 	}
 }
 

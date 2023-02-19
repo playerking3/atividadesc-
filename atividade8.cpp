@@ -4,14 +4,17 @@ using namespace std;
 main(){
 	setlocale (LC_ALL, "portuguese");
 	float num;
-	cout<< "informe um numero: ";
+	cout<< "Informe um numero: ";
 	cin>> num;
 	
+	system("pause");
+	system("cls");
+	
 	if(num >= 1){
-		cout<< "o numero informado é positivo";
+		cout<< "O numero informado ("<<num<<") é positivo";
 	}else if(num <= -1){
-		cout<< "o numero informado é negativo";
+		cout<< "O numero informado ("<<num<<") é negativo";
 	}else{
-		cout<< "O número informado é zero (0)";
+		cout<< "O número informado ("<<num<<") é zero";
 	}
 }

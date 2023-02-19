@@ -5,12 +5,15 @@ main(){
 	setlocale(LC_ALL, "portuguese");
 	string letra;
 	
-	cout << "informe apenas uma letra: ";
+	cout << "Informe apenas uma letra: ";
 	cin >> letra;
 	
+	system("pause");
+	system("cls");
+	
 	if (letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u") {
-		cout << "a letra "<<letra<< " é vogal";
+		cout << "A letra "<<letra<< " é vogal";
 	}else{
-		cout << " a letra "<< letra<< " é consoante";
+		cout << "A letra "<< letra<< " é consoante";
 	}
 }
